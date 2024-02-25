@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -65,4 +66,73 @@ readonly></textarea>
    </footer>
  
   
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>Decodificador de texto</title>
+    </head>
+    <img src="./Imagens/Vector.png" alt="icone__alura" class="icone__alura">
+<body>
+    <section class="entrada">
+        <h1>Decodificador de texto</h1>
+        <br>
+        <br>
+        <br>
+            <textarea name="texto__entrada" id="texto__entrada" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <div class="aviso">
+                <img src="./Imagens/bi_exclamation-circle-fill.png" alt="Icon__explamação">
+                <p  class="texto__int">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="div__botoes">
+                <a onclick="criptografar()" class="botao">Criptografar</a>
+                <a onclick="descriptografar()" class="botao">Descriptografar</a>
+                <a onclick="limparTextos()" class="botao">Limpar Texto</a>
+            </div>
+        </section>
+    
+
+        <section class="saida">
+            <div class="saida__inicio" id="saida__inicio">
+                <img src="./Imagens/foto-pesquisador.svg" alt="Figura pesquisador">
+                <h2> Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="saida__fim" id="saida__fim">
+                <textarea name="texto__saida" id="texto__saida" class="texto__saida"
+readonly></textarea>
+              <a onclick="copiarTexto()" class="botao__copiar">Copiar</a>
+            </div>            
+        </section>     
+
+    </main>
+
+    <script src="app.js"></script>
+ </body>
+ 
+ <footer class="Rodape">
+    <div class="desenvolvido">
+        <p>Desenvolvido por:  
+            <a href="https://github.com/Ricardo-Vieira-Silva">Ricardo Vieira</a>
+        </p>
+        
+    </div>
+    <nav>
+        <div >
+            <a href="" target="_blank">
+                <img src="./Imagens/github.png" alt="logo do github" class="logo__github">
+            </a>    
+        </div>
+     </nav>
+   </footer>
+ 
+  
+>>>>>>> 08628f25b9149e6bd00b24bd3be34e83332bcc39
 </html>
